@@ -1,0 +1,151 @@
+{
+  "$schema": "https://prosefly.dev/schema/lotus.json",
+  "name": "OpenLint",
+  "description": "Documentation for OpenLint, the open source linter for JSON/YAML, OpenAPI, AsyncAPI and Arazzo.",
+  "siteNav": [
+    {
+      "label": "Docs",
+      "href": "/"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/openlint/openlint",
+      "external": true
+    }
+  ],
+  "docsNav": [
+    {
+      "label": "Getting Started",
+      "items": [
+        {
+          "label": "Concepts",
+          "link": "getting-started/concepts"
+        },
+        {
+          "label": "Installation",
+          "link": "getting-started/installation"
+        },
+        {
+          "label": "Create a Ruleset",
+          "link": "getting-started/rulesets"
+        },
+        {
+          "label": "OpenAPI Support",
+          "link": "getting-started/openapi"
+        },
+        {
+          "label": "Arazzo Support",
+          "link": "getting-started/arazzo"
+        },
+        {
+          "label": "AsyncAPI Support",
+          "link": "getting-started/asyncapi"
+        }
+      ]
+    },
+    {
+      "label": "Guides",
+      "items": [
+        {
+          "label": "Workflows",
+          "link": "guides/workflows"
+        },
+        {
+          "label": "OpenLint CLI",
+          "link": "guides/cli"
+        },
+        {
+          "label": "OpenLint in JavaScript",
+          "link": "guides/javascript"
+        },
+        {
+          "label": "Rulesets",
+          "items": [
+            {
+              "label": "Overview",
+              "link": "guides/custom-rulesets"
+            },
+            {
+              "label": "Rules",
+              "link": "guides/rules"
+            },
+            {
+              "label": "Extending Rulesets",
+              "link": "guides/extends"
+            },
+            {
+              "label": "Aliases",
+              "link": "guides/aliases"
+            },
+            {
+              "label": "Overrides",
+              "link": "guides/overrides"
+            },
+            {
+              "label": "Recommended",
+              "link": "guides/recommended"
+            },
+            {
+              "label": "JavaScript Ruleset Format",
+              "link": "guides/js-rulesets"
+            }
+          ]
+        },
+        {
+          "label": "Custom Functions",
+          "link": "guides/custom-functions"
+        },
+        {
+          "label": "Sharing & Distributing Rulesets",
+          "link": "guides/sharing-rulesets"
+        },
+        {
+          "label": "Continuous Integration",
+          "link": "guides/continuous-integration"
+        },
+        {
+          "label": "Tips & Tricks",
+          "link": "guides/tips-and-tricks"
+        }
+      ]
+    },
+    {
+      "label": "Migration Guides",
+      "items": [
+        {
+          "label": "Migrate from Spectral",
+          "link": "migration-guides/spectral"
+        }
+      ]
+    },
+    {
+      "label": "Reference",
+      "items": [
+        {
+          "label": "OpenAPI Rules",
+          "link": "reference/openapi-rules"
+        },
+        {
+          "label": "Arazzo Rules",
+          "link": "reference/arazzo-rules"
+        },
+        {
+          "label": "AsyncAPI Rules",
+          "link": "reference/asyncapi-rules"
+        },
+        {
+          "label": "Error Handling",
+          "link": "reference/error-handling"
+        },
+        {
+          "label": "Core Functions",
+          "link": "reference/functions"
+        },
+        {
+          "label": "YAML support",
+          "link": "reference/yaml"
+        }
+      ]
+    }
+  ]
+}

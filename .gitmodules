@@ -1,0 +1,3 @@
+[submodule "openlint"]
+	path = openlint
+	url = ../openlint
