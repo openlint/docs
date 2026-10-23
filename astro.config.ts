@@ -1,9 +1,9 @@
-import { defineConfig } from 'astro/config';
-import { fileURLToPath } from 'node:url';
-import lotus from '@prosefly/astro-theme-lotus';
+import { defineConfig } from "astro/config";
+import { fileURLToPath } from "node:url";
+import lotus from "@prosefly/astro-theme-lotus";
 
 export default defineConfig({
-  redirects: { '/': '/getting-started/concepts' },
+  redirects: { "/": "/getting-started" },
   integrations: [lotus()],
   vite: {
     resolve: {
@@ -12,7 +12,9 @@ export default defineConfig({
       alias: [
         {
           find: /^@prosefly\/astro-components$/,
-          replacement: fileURLToPath(import.meta.resolve('@prosefly/astro-components')),
+          replacement: fileURLToPath(
+            import.meta.resolve("@prosefly/astro-components")
+          ),
         },
       ],
     },
